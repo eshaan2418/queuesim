@@ -1,0 +1,12 @@
+{
+  "itch_messages": 368366634, "symbol_messages": 1653562, "seconds": 25.41, "feed_latency_us": 5.0, "order_latency_us": 5.0,
+  "params": {"gamma": 0.1, "kappa": 150, "tau_s": 30, "lot": 100, "max_lots": 5, "theta": 0.8, "hold_s": 5, "maker_fee": -0.002, "taker_fee": 0.003},
+  "results": [
+    {"model": "queue", "strategy": "avellaneda_stoikov", "symbol": "MSFT", "market_events": 1756072, "views": 932741,
+     "orders": 21310, "cancels": 19859, "fills": 1886, "maker_fills": 1883, "taker_fills": 3, "fill_rate": 0.0885,
+     "volume": 151450, "maker_volume": 151150, "max_abs_position": 598, "final_position": -472,
+     "pnl": 651.28, "pnl_ex_fees": 349.88, "fees": -301.40, "pnl_per_share": 0.00430, "sharpe_annualized_1min": -20.51,
+     "markout_maker_per_share": {"1s": -0.00542, "5s": -0.00605, "30s": -0.00935}, "markout_taker_per_share": {"1s": -0.05667, "5s": -0.07333, "30s": -0.01000},
+     "lookahead_violations": 0, "fill_hash": "95cea0fcd6a84c08", "equity_minutes": 381}
+  ]
+}

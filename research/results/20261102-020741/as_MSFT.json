@@ -1,0 +1,24 @@
+{
+  "itch_messages": 368366634, "symbol_messages": 1653562, "seconds": 26.90, "feed_latency_us": 50.0, "order_latency_us": 50.0,
+  "params": {"gamma": 0.1, "kappa": 150, "tau_s": 30, "lot": 100, "max_lots": 5, "theta": 0.8, "hold_s": 5, "maker_fee": -0.002, "taker_fee": 0.003},
+  "results": [
+    {"model": "queue", "strategy": "avellaneda_stoikov", "symbol": "MSFT", "market_events": 1756072, "views": 932741,
+     "orders": 21321, "cancels": 19898, "fills": 1880, "maker_fills": 1870, "taker_fills": 10, "fill_rate": 0.0882,
+     "volume": 151933, "maker_volume": 150933, "max_abs_position": 593, "final_position": -467,
+     "pnl": 602.94, "pnl_ex_fees": 304.07, "fees": -298.87, "pnl_per_share": 0.00397, "sharpe_annualized_1min": -21.30,
+     "markout_maker_per_share": {"1s": -0.00549, "5s": -0.00612, "30s": -0.00968}, "markout_taker_per_share": {"1s": -0.01400, "5s": -0.02600, "30s": 0.04250},
+     "lookahead_violations": 0, "fill_hash": "1e57b798f93e14b4", "equity_minutes": 381},
+    {"model": "touch", "strategy": "avellaneda_stoikov", "symbol": "MSFT", "market_events": 1756072, "views": 932741,
+     "orders": 20719, "cancels": 18836, "fills": 2699, "maker_fills": 2689, "taker_fills": 10, "fill_rate": 0.1303,
+     "volume": 199740, "maker_volume": 198740, "max_abs_position": 599, "final_position": -436,
+     "pnl": 422.03, "pnl_ex_fees": 27.55, "fees": -394.48, "pnl_per_share": 0.00211, "sharpe_annualized_1min": -26.11,
+     "markout_maker_per_share": {"1s": -0.00326, "5s": -0.00379, "30s": -0.00676}, "markout_taker_per_share": {"1s": -0.01950, "5s": -0.02050, "30s": 0.01700},
+     "lookahead_violations": 0, "fill_hash": "660b81f73f52f91b", "equity_minutes": 381},
+    {"model": "through", "strategy": "avellaneda_stoikov", "symbol": "MSFT", "market_events": 1756072, "views": 932741,
+     "orders": 20861, "cancels": 19717, "fills": 1304, "maker_fills": 1292, "taker_fills": 12, "fill_rate": 0.0625,
+     "volume": 119495, "maker_volume": 118295, "max_abs_position": 589, "final_position": -477,
+     "pnl": 327.77, "pnl_ex_fees": 94.78, "fees": -232.99, "pnl_per_share": 0.00274, "sharpe_annualized_1min": -32.77,
+     "markout_maker_per_share": {"1s": -0.00788, "5s": -0.00853, "30s": -0.01112}, "markout_taker_per_share": {"1s": -0.02042, "5s": -0.00375, "30s": 0.00250},
+     "lookahead_violations": 0, "fill_hash": "742d8b6f0e74abe6", "equity_minutes": 381}
+  ]
+}

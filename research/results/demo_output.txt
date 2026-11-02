@@ -1,0 +1,5 @@
+MSFT: replayed 368,366,634 ITCH messages (1,653,562 for the symbol) in 25.4 s
+model       fills  maker vol      PnL $  markout 1s c/sh
+queue       1,880    150,933        603            -0.55
+touch       2,699    198,740        422            -0.33
+through     1,304    118,295        328            -0.79

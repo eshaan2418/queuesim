@@ -1,0 +1,5 @@
+build*/
+*.gz
+NOTES.md
+.DS_Store
+__pycache__/

@@ -1,0 +1,12 @@
+{
+  "itch_messages": 368366634, "symbol_messages": 1668774, "seconds": 27.51, "feed_latency_us": 50.0, "order_latency_us": 50.0,
+  "params": {"gamma": 0.1, "kappa": 150, "tau_s": 30, "lot": 100, "max_lots": 5, "theta": 0.8, "hold_s": 5, "maker_fee": -0.002, "taker_fee": 0.003},
+  "results": [
+    {"model": "queue", "strategy": "imbalance_taker", "symbol": "AAPL", "market_events": 1779560, "views": 560089,
+     "orders": 6155, "cancels": 0, "fills": 7828, "maker_fills": 0, "taker_fills": 7828, "fill_rate": 1.2718,
+     "volume": 615500, "maker_volume": 0, "max_abs_position": 100, "final_position": 100,
+     "pnl": -8976.73, "pnl_ex_fees": -7130.23, "fees": 1846.50, "pnl_per_share": -0.01458, "sharpe_annualized_1min": -521.40,
+     "markout_maker_per_share": {"1s": 0.00000, "5s": 0.00000, "30s": 0.00000}, "markout_taker_per_share": {"1s": -0.01205, "5s": -0.01148, "30s": -0.01100},
+     "lookahead_violations": 0, "fill_hash": "783a77042fcf7d44", "equity_minutes": 381}
+  ]
+}

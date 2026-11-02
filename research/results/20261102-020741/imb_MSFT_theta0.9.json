@@ -1,0 +1,12 @@
+{
+  "itch_messages": 368366634, "symbol_messages": 1653562, "seconds": 24.97, "feed_latency_us": 50.0, "order_latency_us": 50.0,
+  "params": {"gamma": 0.1, "kappa": 150, "tau_s": 30, "lot": 100, "max_lots": 5, "theta": 0.9, "hold_s": 5, "maker_fee": -0.002, "taker_fee": 0.003},
+  "results": [
+    {"model": "queue", "strategy": "imbalance_taker", "symbol": "MSFT", "market_events": 1756072, "views": 932741,
+     "orders": 4259, "cancels": 0, "fills": 5061, "maker_fills": 0, "taker_fills": 5061, "fill_rate": 1.1883,
+     "volume": 425900, "maker_volume": 0, "max_abs_position": 100, "final_position": -100,
+     "pnl": -3357.66, "pnl_ex_fees": -2079.96, "fees": 1277.70, "pnl_per_share": -0.00788, "sharpe_annualized_1min": -525.88,
+     "markout_maker_per_share": {"1s": 0.00000, "5s": 0.00000, "30s": 0.00000}, "markout_taker_per_share": {"1s": -0.00562, "5s": -0.00570, "30s": -0.00579},
+     "lookahead_violations": 0, "fill_hash": "abe69571b206c6f4", "equity_minutes": 381}
+  ]
+}
